@@ -1,6 +1,28 @@
-  { "type": "Feature",
-    "geometry": {"type": "Point", "coordinates": [ -71.10926628, 42.350900862]},
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.108828, 42.350858]},
 	"properties": {	 
-	"name": "George Sherman Union"
+	"name": "George Sherman Union",
+	"marker-size": "large"
 	}
-  }
+    },
+     { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.115922, 42.352333]},
+	"properties": {	 
+	"name": "BU housing",
+	"marker-symbol": "lodging",
+	"marker-color": "#0a0"
+		}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.105215, 42.354174]},
+	"properties": {	 
+	"name": "Hyatt",
+	"marker-symbol": "lodging",
+	"marker-color": "#990"
+	}
+    }
+  
+  ]
+ }
