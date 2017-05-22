@@ -1,0 +1,6 @@
+# Output products
+html/*
+# MAC OS preview files
+.DS_Store
+# Editor backup
+*~
