@@ -149,6 +149,7 @@ h3 {color:#dc932c;font-weight:400;}
 .name {color:#dc932c;font-size:1.143em;font-weight:600;margin:0;}
 .position {margin:0 0 20px;}
 .listing {margin: 15px;}
+.sponsor-logo img {max-height:100px}
 
 /* CONTACT FORM ========================================================== */
 .contactform {width:100%; overflow:hidden;}
