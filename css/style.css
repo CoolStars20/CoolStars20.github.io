@@ -65,6 +65,8 @@ ul.social li a.fb:hover{background-position: -50px -100px;}
 ul.social li a.gp:hover{background-position: -150px -100px;}
 ul.social li a.tw:hover{background-position: -250px -100px;}
 ul.social li a.in:hover{background-position: -350px -100px;}
+.top-bar {font-size:1.em;background-color:#DC932C;overflow:hidden;}
+.top-bar p,.top-bar a {color:white;line-height: 30px;}
 
 .navbar-wrapper {position: absolute;top: 30px;left: 0;right: 0;z-index: 20;}
 .navbar-wrapper .container {padding-left: 0;padding-right: 0;}
@@ -85,7 +87,7 @@ ul.social li a.in:hover{background-position: -350px -100px;}
 .navbar-collapse.in {overflow-y: auto;}
 .container > .navbar-header,.container > .navbar-collapse {margin-right: -15px;margin-left: -15px;}
 .navbar-static-top {z-index: 1000;border-width: 0 0 1px;}
-.navbar-brand {float: left;padding: 15px 15px 15px 50px;font-size: 18px;line-height: 20px;margin:15px 5px 0 15px;background: url('../icons/sprites.png') 0 0 no-repeat;}
+.navbar-brand {float: left;padding: 0px 0px 50px 50px;font-size: 18px;line-height: 20px;margin:15px 5px 0 15px;background: url('../icons/sprites.png') 0 0 no-repeat;}
 .navbar-brand:hover,.navbar-brand:focus {text-decoration: none;}
 .navbar-toggle {position: relative;float: right;padding: 9px 10px;margin-top: 8px;margin-right: 15px;margin-bottom: 8px;background-color: #dc932c;border: none;border-radius: 2px;}
 .navbar-toggle .icon-bar {display: block;width: 22px;height: 2px;border-radius: 1px;}
@@ -165,8 +167,8 @@ h3 {color:#dc932c;font-weight:400;}
 
 
 /* RESPONSIVE CSS ================================================== */
-@media (min-width: 968px) {
-  .container {width: 950px;}
+@media (min-width: 768px) {
+  .container {width: 750px;}
   .c3.charts {width:50%;}
   .navbar-right .dropdown-menu {right: 0;left: auto;}
   .navbar-header {float: left;}
@@ -208,7 +210,7 @@ h3 {color:#dc932c;font-weight:400;}
 @media (min-width: 1200px) {
   .container {width: 1170px;}
 }
-@media (max-width: 967px) {
+@media (max-width: 767px) {
   .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11 {width:100%;}
   .navbar-wrapper .navbar {padding:0;}
   .navbar {position: relative;min-height: 50px;margin-bottom: 20px;border: 1px solid transparent;}
@@ -216,7 +218,7 @@ h3 {color:#dc932c;font-weight:400;}
   .navbar-nav .open .dropdown-menu > li > a,.navbar-nav .open .dropdown-menu .dropdown-header {padding: 5px 15px 5px 25px;}
   .navbar-nav .open .dropdown-menu > li > a {line-height: 20px;}
   .navbar-nav .open .dropdown-menu > li > a:hover,.navbar-nav .open .dropdown-menu > li > a:focus {background-image: none;}
-  .navbar-brand{margin:10px 0 0 10px;background-position: -1px -57px;padding:5px 15px 15px 30px;}
+  .navbar-brand{margin:10px 0 0 10px;background-position: -1px -57px;padding:5px 15px 30px 30px;}
   .navbar-form .form-group {margin-bottom: 5px;}
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {color: #777777;}
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {color: #333333;background-color: transparent;}
