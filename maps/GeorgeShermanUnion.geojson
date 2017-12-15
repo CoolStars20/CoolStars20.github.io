@@ -22,6 +22,14 @@
 	"marker-symbol": "lodging",
 	"marker-color": "#990"
 	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.1005, 42.34576]},
+	"properties": {	 
+	"name": "Residence Inn",
+	"marker-symbol": "lodging",
+	"marker-color": "#990"
+	}
     }
   
   ]

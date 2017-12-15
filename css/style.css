@@ -9,6 +9,7 @@ canvas{display: inline-block;}
 a {color: #c95c50;text-decoration: none;}
 a:hover,a:focus {color: #c95c50;text-decoration: underline;outline: none;}
 p {margin: 20px 0;}
+ol {padding: 20px;}
 ul,ol {margin-top: 0;margin-bottom: 10px;}
 ul ul,ol ul,ul ol,ol ol {margin-bottom: 0;}
 
