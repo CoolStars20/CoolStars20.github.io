@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="favicon.png">
     <title>About</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     <script src="js/chart.js"></script>
 
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -37,6 +38,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
   </head>
 
   <body>
@@ -88,9 +92,19 @@
 
     <!-- Content -->
     
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
+processEscapes: true}
+});
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="js/abstractstab.js"></script>
+	
 
     <div class="container clearfix mt-100 mb-20">
-             <div class="c12 row">
+            <div class="c12 row">
         <p class="intro-text">July 29 - Aug 3 2018, Boston / Cambridge, USA</p>
        </div>
        <div class="c12 row">
@@ -99,19 +113,15 @@
        <div class="c12 row">
         <p><strong>Splinter sessions are selected. <a href="splinters.html">See the list!</a></strong></p>
        </div>
-         <div class="c12 row">
-  SOC and LOC plan the following imporant dates:
-	<ul class="listing">
-	  <li>Early March - registration opens</li>
-	  <li>March 14 - deadline for abstracts for contributed talks and financial support</li>
-	  <li>April 15 - contributed speakers announced</li>
-	  <li>May 1 - deadline for early registration</li>
-	  <li>June 15 - detailed splinter session programs online, deadline for poster abstracts and regular registration</li>
-	  <li>July 10 - deadline for late registration</li>
-	  <li>July 29 to Aug 3: conference</li>
-	</ul>
+      <a name="top"></a>
+      <div class="c12 row">
+	<p>Jump to <a href="#table">table of accepted all contributions</a>,
+	  <a href="#talks">accepted talks</a>, or 
+	  <a href="#posters">accepted posters</a>.
+	</p>
       </div>
-      <h2><span>Contributions</span></h2>
+
+      <h2><span>Submit contributions</span></h2>
       <div class="c12 row">
         <p>We accept submissions for plenary talks and poster contributions.</p>
 
@@ -126,6 +136,60 @@
 	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfONDEIwIP5FkgNVzAKr8J24EYSgIlkftZliG4GSRo7K4qSfg/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
       </div>  
+
+      <a name="table"></a>
+      <h2><span>Accepted contributions</span></h2>
+      <div class="c12 row">
+        <p>Use the table below to view and search abstracts or jump directly
+	  to a listing of all <a href="#talks">talks</a> or <a href="#posters">posters</a>.
+	</p>
+
+	<table id="example" class="display" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Type</th>
+              <th>Author</th>
+              <th>Title</th>
+	      <th>Authorlist</th>
+	      <th>Affiliations</th>
+	      <th>Abstract</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th></th>
+              <th>Type</th>
+              <th>Author</th>
+              <th>Title</th>
+	      <th>Authorlist</th>
+	      <th>Affiliations</th>
+	      <th>Abstract</th>
+            </tr>
+          </tfoot>
+	</table>
+      </div>
+      <a name="talks"></a>
+      <h2><span>Talks</span></h2>
+      <div class="c12 row">
+	
+	<p>Contributed talks will be listed here after the SOC has reviewed the submitted abstracts.</p>
+	
+      </div>
+	
+      <a name="posters"></a>
+      <h2><span>Posters</span></h2>
+      <div class="c12 row">
+	
+	<p>Contributed talks will be listed here after the SOC has reviewed the submitted abstracts.</p>
+	
+
+      </div>  
+      
+        
+      </div>  
+	
+
     </div>
 
 
@@ -140,7 +204,5 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.js"></script>
   </body>
 </html>
