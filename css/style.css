@@ -156,6 +156,10 @@ h3 {color:#dc932c;font-weight:400;}
 .rightlinks {text-align: right;margin-bottom: 5px}
 .locationschedule {margin: 10px 0;}
 
+/* ABSTRACT PAGE =================================================== */
+p.abstracts {margin: 5px 0;}
+
+
 /* CONTACT FORM ========================================================== */
 .contactform {width:100%; overflow:hidden;}
 .contactform p {overflow:hidden;}
