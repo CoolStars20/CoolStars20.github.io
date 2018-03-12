@@ -66,6 +66,7 @@ $(document).ready(function() {
             // Open this row
             row.child( format(row.data()) ).show();
             tr.addClass('shown');
+	    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
         }
     } );
 } );

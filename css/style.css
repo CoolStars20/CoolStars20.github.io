@@ -156,9 +156,15 @@ h3 {color:#dc932c;font-weight:400;}
 .rightlinks {text-align: right;margin-bottom: 5px}
 .locationschedule {margin: 10px 0;}
 
-/* ABSTRACT PAGE =================================================== */
+/* CONTRIBUTION PAGE SPECIAL =================================================== */
 p.abstracts {margin: 5px 0;}
-
+td.details-control {
+    background: url('../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat center center;
+}
 
 /* CONTACT FORM ========================================================== */
 .contactform {width:100%; overflow:hidden;}
