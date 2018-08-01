@@ -1,0 +1,95 @@
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.108828, 42.350858]},
+	"properties": {	 
+	"name": "George Sherman Union",
+	"marker-size": "large"
+	}
+    },
+     { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.115922, 42.352333]},
+	"properties": {	 
+	"name": "BU dorm",
+	"description": "<a href='http://stay.bu.edu/coolstars2018.bnb'>booking link</a>",
+	"marker-symbol": "lodging",
+	"marker-color": "#0a0"
+		}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.105215, 42.354174]},
+	"properties": {	 
+	"name": "Hyatt",
+	"description": "<a href='https://cambridge.regency.hyatt.com/en/hotel/home.html'>booking link</a>",
+	"marker-symbol": "lodging",
+	"marker-color": "#990"
+	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.1005, 42.34576]},
+	"properties": {	 
+	"name": "Marriot Residence Inn",
+	"description": "<a href='http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Harvard%20Smithsonian%20Center%20for%20Astrophysics%5EBOSFN%60SMISMIA%60319.00%60USD%60false%602%607/29/18%608/4/18%606/29/18&app=resvlink&stop_mobi=yes'>booking link</a>",
+	"marker-symbol": "lodging",
+	"marker-color": "#990"
+	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.08246, 42.34723]},
+	"properties": {	 
+	"name": "Top of the Hub",
+	"description": "conference banquet",
+	"marker-symbol": "bar",
+	"marker-color": "#900"
+	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.0634, 42.3558]},
+	"properties": {	 
+	"name": "Historic Boston Walking tour",
+	"description": "Tour start point",
+	"marker-color": "#0F0"
+	}
+    }, 
+   { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.1101, 42.3521]},
+	"properties": {	 
+	"name": "Kayak on the Charles",
+	"description": "Boat House",
+	"marker-color": "#0F0"
+	}
+    },
+   { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.07412, 42.3641]},
+	"properties": {	 
+	"name": "Duck Boat tour",
+	"description": "random point on tour. Need to place the marker somehwere ;-)",
+	"marker-color": "#0F0"
+	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.1058, 42.3816]},
+	"properties": {	 
+	"name": "Brewary Tour",
+	"description": "This marker is at the Aeronaut Brewing company - one of the places visited during the tour.",
+	"marker-color": "#0F0"
+	}
+    },
+   { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.0972, 42.3465]},
+	"properties": {	 
+	"name": "Fenway Park tour",
+	"description": "Fenway park",
+	"marker-color": "#0F0"
+	}
+    },
+   { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.0098, 42.3147]},
+	"properties": {	 
+	"name": "Harbor Island trip and clam bake",
+	"description": "Thompson Island",
+	"marker-color": "#0F0"
+	}
+    }
+  ]
+ }

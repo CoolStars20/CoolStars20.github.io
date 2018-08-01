@@ -10,7 +10,8 @@
      { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [ -71.115922, 42.352333]},
 	"properties": {	 
-	"name": "BU housing",
+	"name": "BU dorm",
+	"description": "<a href='http://stay.bu.edu/coolstars2018.bnb'>booking link</a>",
 	"marker-symbol": "lodging",
 	"marker-color": "#0a0"
 		}
@@ -19,6 +20,7 @@
     "geometry": {"type": "Point", "coordinates": [ -71.105215, 42.354174]},
 	"properties": {	 
 	"name": "Hyatt",
+	"description": "<a href='https://cambridge.regency.hyatt.com/en/hotel/home.html'>booking link</a>",
 	"marker-symbol": "lodging",
 	"marker-color": "#990"
 	}
@@ -26,11 +28,20 @@
     { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [ -71.1005, 42.34576]},
 	"properties": {	 
-	"name": "Residence Inn",
+	"name": "Marriot Residence Inn",
+	"description": "<a href='http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Harvard%20Smithsonian%20Center%20for%20Astrophysics%5EBOSFN%60SMISMIA%60319.00%60USD%60false%602%607/29/18%608/4/18%606/29/18&app=resvlink&stop_mobi=yes'>booking link</a>",
 	"marker-symbol": "lodging",
 	"marker-color": "#990"
 	}
+    },
+    { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [ -71.08246, 42.34723]},
+	"properties": {	 
+	"name": "Top of the Hub",
+	"description": "conference banquet",
+	"marker-symbol": "bar",
+	"marker-color": "#900"
+	}
     }
-  
   ]
  }

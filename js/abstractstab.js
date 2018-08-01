@@ -48,8 +48,9 @@ $(document).ready(function() {
 	    { "data": "authoremail", "visible": false},
 	    { "data": "link", visible: false},
 	    { "data": "loctime", visible: false},
+	    { "data": "index", visible: false},
         ],
-        "order": [[1, 'asc']],
+        "order": [[10, 'asc']],
     } );
      
     // Add event listener for opening and closing details
